@@ -1,0 +1,37 @@
+.p0 { padding: 0; }
+.pl0 { padding-left: 0; }
+.pr0 { padding-right: 0; }
+.pt0 { padding-top: 0; }
+.pb0 { padding-bottom: 0; }
+
+.p1  { padding: .5*$space; }
+.pt1 { padding-top:  .5*$space; }
+.pr1 { padding-right: .5*$space; }
+.pb1 { padding-bottom: .5*$space; }
+.pl1 { padding-left: .5*$space; } 
+.px1 { padding-right: .5*$space; padding-left: .5*$space; }
+.py1 { padding-top: .5*$space; padding-bottom: .5*$space; }
+
+.p2  { padding: $space; }
+.pt2 { padding-top: $space; }
+.pr2 { padding-right: $space; }
+.pb2 { padding-bottom: $space; }
+.pl2 { padding-left: $space; } 
+.px2 { padding-right: $space; padding-left: $space; }
+.py2 { padding-top: $space; padding-bottom: $space; }
+
+.p3  { padding: 2*$space; }
+.pt3 { padding-top: 2*$space; }
+.pr3 { padding-right: 2*$space; }
+.pb3 { padding-bottom: 2*$space; }
+.pl3 { padding-left: 2*$space; } 
+.px3 { padding-right: 2*$space; padding-left: 2*$space; }
+.py3 { padding-top: 2*$space; padding-bottom: 2*$space; }
+
+.p4  { padding: 4*$space; }
+.pt4 { padding-top: 4*$space; }
+.pr4 { padding-right: 4*$space; }
+.pb4 { padding-bottom: 4*$space; }
+.pl4 { padding-left: 4*$space; } 
+.px4 { padding-right: 4*$space; padding-left: 4*$space; }
+.py4 { padding-top: 4*$space; padding-bottom: 4*$space; }

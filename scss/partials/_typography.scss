@@ -1,0 +1,42 @@
+html {
+    font-size: $base-font-size;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    font-family: $font-family-1;
+    line-height: $base-line-height;
+    font-weight: 400;
+    color: $base-color;
+}
+
+a {
+    color: $base-link-color;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    -webkit-transition: color 0.3s ease;
+}
+
+a:hover { color: $base-link-hover-color; }
+
+p { margin: $space 0; }
+p:first-child { margin-top: $space*2 };
+
+.font-family-1 { font-family: $font-family-1; }
+.font-family-2 { font-family: $font-family-2; }
+
+.light { font-weight: 300; }
+.regular { font-weight: 400; }
+.semibold { font-weight: 600; }
+.bold, .strong, b, strong { font-weight: 700; }
+
+.italic, i, em { font-style: italic; }
+
+.text-left { text-align: left; }
+.text-center { text-align: center; }
+.text-right { text-align: right; }
+
+.text-uppercase { text-transform: uppercase; }
+.text-underline { text-decoration: underline; }
+
+.nowrap { white-space: nowrap; }
