@@ -1,20 +1,20 @@
 html {
-    font-size: $base-font-size;
-    -webkit-font-smoothing: antialiased;
+  font-size: $base-font-size;
+  -webkit-font-smoothing: antialiased;
 }
 
 body {
-    font-family: $font-family-1;
-    line-height: $base-line-height;
-    font-weight: 400;
-    color: $base-color;
+  font-family: $font-family-1;
+  line-height: $base-line-height;
+  font-weight: 400;
+  color: $base-color;
 }
 
 a {
-    color: $base-link-color;
-    text-decoration: none;
-    transition: color 0.3s ease;
-    -webkit-transition: color 0.3s ease;
+  color: $base-link-color;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  -webkit-transition: color 0.3s ease;
 }
 
 a:hover { color: $base-link-hover-color; }
